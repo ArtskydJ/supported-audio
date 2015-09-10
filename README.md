@@ -23,10 +23,10 @@ bestSupported([ 'lol', 'rofl', 'ttyl' ]) // => null
 var bestSupported = require('supported-audio')
 ```
 
-# `var type = bestSupported(types, [defaultType])`
+## `var type = bestSupported(types)`
 
-- `types` is an array of types to check
-- **Returns** a file type from `types`. If none of `types` can be played, an empty string `''` is returned.
+- `types` is an array of types to check.
+- **Returns** a string or null.
 
 # install
 
