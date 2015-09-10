@@ -1,0 +1,31 @@
+{
+  "name": "supported-audio",
+  "version": "",
+  "main": "./index.js",
+  "license": "VOL",
+  "author": {
+    "name": "ArtskydJ",
+    "email": "josephdykstra@gmail.com"
+  },
+  "description": "Returns the best supported audio type for your browser of the types you provide",
+  "keywords": [
+    "canplaytype",
+    "browser",
+    "audio",
+    "best"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtskydJ/supported-audio"
+  },
+  "scripts": {
+    "test": "browserify test.js | tap-closer | smokestack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "smokestack": "^3.3.1",
+    "tap-closer": "^1.0.0",
+    "tape": "^4.2.0"
+  }
+}
