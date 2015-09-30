@@ -1,7 +1,9 @@
 supported-audio
 =========
 
-Returns the best supported audio type for your browser of the types you provide.
+> Returns the best supported audio type for your browser of the types you provide.
+
+[![Build Status](https://travis-ci.org/ArtskydJ/supported-audio.svg?branch=master)](https://travis-ci.org/ArtskydJ/supported-audio)
 
 Meant to be used in the browser with [browserify](https://github.com/substack/node-browserify).
 
