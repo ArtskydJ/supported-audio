@@ -19,7 +19,8 @@
     "url": "https://github.com/ArtskydJ/supported-audio"
   },
   "scripts": {
-    "test": "browserify test.js | tap-closer | smokestack"
+    "test": "browserify test.js | tap-closer | smokestack",
+    "travis": "browserify test.js | tap-closer | smokestack -b firefox"
   },
   "dependencies": {},
   "devDependencies": {
